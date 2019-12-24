@@ -1,6 +1,6 @@
 from pyspark import SparkContext, SparkConf
 
-FILE_PATH = "../learn_spark/SparkScala/SparkScala/fakefriends.csv"
+FILE_PATH = "../SparkScala/SparkScala/fakefriends.csv"
 
 """
 Input: A line of text containing (index, name, age, number of friends)

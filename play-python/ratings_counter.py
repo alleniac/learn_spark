@@ -4,7 +4,7 @@ if __name__ == '__main__':
     sc = SparkContext("local[*]", "RatingsCounter")
     sc.setLogLevel("ERROR")
 
-    lines = sc.textFile("../ml-100k/u.data")
+    lines = sc.textFile("../SparkScala/ml-100k/u.data")
     ratings = lines.map(lambda line: line.split("\t")[2])
     results = ratings.countByValue()
 

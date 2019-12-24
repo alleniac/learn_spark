@@ -1,7 +1,7 @@
 from pyspark import SparkContext
 import re
 
-FILE_PATH = "../learn_spark/SparkScala/SparkScala/book.txt"
+FILE_PATH = "../SparkScala/SparkScala/book.txt"
 
 """
 1. Simply split the lines with whitespace and then flatMap them

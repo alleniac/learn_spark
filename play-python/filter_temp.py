@@ -1,6 +1,6 @@
 from pyspark import SparkContext, SparkConf
 
-FILE_PATH = "../learn_spark/SparkScala/SparkScala/1800.csv"
+FILE_PATH = "../SparkScala/SparkScala/1800.csv"
 
 def parseLine(line):
     fields = line.split(",")
