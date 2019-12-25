@@ -3,7 +3,7 @@ from pyspark import SparkContext
 FILE_PATH = "../SparkScala/SparkScala/customer-orders.csv"
 
 """
-`"""
+"""
 if __name__ == "__main__":
     sc = SparkContext("local[*]", "CustomerSpending")
     sc.setLogLevel("ERROR")
